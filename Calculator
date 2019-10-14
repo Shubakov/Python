@@ -1,0 +1,4 @@
+import math
+def calculate (a, operation : str, b=0) 
+    operations = {"+" : lambda x, y: x + y, "-" : lambda x, y: x - y, "*" : lambda x, y: x * y, "/" : lambda x, y: x / y, "!" : lambda x, y: math.factorial(x)}
+    return operations[operation](a, b)  
